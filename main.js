@@ -122,3 +122,50 @@
 // console.log(str({a: 12, b: 13, c:14, d:15}))
 
 // 57 task finished 
+
+// 58 task starts 
+
+// function examResults(pupils) {
+//     const passed = pupils.reduce((count, pupil) => {
+//         return pupil.protcent >= 80 ? count + 1 : count;
+//     }, 0);
+
+//     return {
+//         passed: passed,
+//         failed: pupils.length - passed
+//     };
+// }
+
+// let pupils = [
+//     {name: "Elbek", protcent: 95},
+//     {name: "Zafar", protcent: 78},
+//     {name: "Aziz", protcent: 83},
+//     {name: "Jasur", protcent: 88},
+//     {name: "Bobur", protcent: 66},
+//     {name: "Kamron", protcent: 75},
+//     {name: "Azamat", protcent: 90}
+
+// ];
+
+// console.log(examResults(pupils));
+// 58 task finished 
+
+// 59 task starts
+
+// var findMedianSortedArrays = function(nums1, nums2) {
+//     const merged = nums1.concat(nums2).sort((a, b) => a - b);
+//     const length = merged.length;
+//     console.log(merged);
+//     if (length % 2 === 0) {
+//         const mid = length / 2;
+//         return (merged[mid - 1] + merged[mid]) / 2;
+//     } else {
+//         return merged[Math.floor(length / 2)];
+//     }
+// };
+
+
+// const nums1 = [1, 2,];
+// const nums2 = [3, 4,];
+// console.log(findMedianSortedArrays(nums1, nums2));
+
